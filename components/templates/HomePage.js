@@ -1,5 +1,8 @@
 import Attributes from "../modules/Attributes";
 import Banner from "../modules/Banner";
+import Companies from "../modules/Companies";
+import Definition from "../modules/Definition";
+import Instruction from "../modules/Instruction";
 import styles from "./HomePage.module.css";
 
 function HomePage() {
@@ -8,6 +11,8 @@ function HomePage() {
       <Banner />
       <Attributes />
       <Definition />
+      <Companies />
+      <Instruction />
     </div>
   );
 }
