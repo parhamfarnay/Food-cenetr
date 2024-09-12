@@ -7,6 +7,7 @@ function HomePage() {
     <div className={styles.container}>
       <Banner />
       <Attributes />
+      <Definition />
     </div>
   );
 }
