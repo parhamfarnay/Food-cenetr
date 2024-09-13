@@ -3,6 +3,8 @@ import Banner from "../modules/Banner";
 import Companies from "../modules/Companies";
 import Definition from "../modules/Definition";
 import Instruction from "../modules/Instruction";
+import Guide from "../modules/Guide";
+import Restrictions from "../modules/Restrictions";
 import styles from "./HomePage.module.css";
 
 function HomePage() {
@@ -13,6 +15,8 @@ function HomePage() {
       <Definition />
       <Companies />
       <Instruction />
+      <Guide />
+      <Restrictions />
     </div>
   );
 }
